@@ -22,11 +22,11 @@ TTUR improves learning for DCGANs and Improved Wasserstein GANs (WGAN-GP), outpe
     * TTUR has an individual learning rate for both the discriminator and the generator.  
 
 2. Evaluation metric: FID
-    * They claimed FID captures the similarity of generated images to real ones better than Inception Score.   
-    * They assume the **_coding units (what is it?)_** to follow a multidimensional Gaussian.     
-    * The distance of two Gaussians (synthetic and ground-truth images) is measured by FID.  
-    * FID is consistent with increasing disturbance and human judgement (perceptual quality).    
-    * FID is more consistent with the noise level than the **_Inception Score (discussed in Notes)_.**   
+	* They claimed FID captures the similarity of generated images to real ones better than Inception Score.  
+	* They assume the **_coding units (what is it?)_** to follow a multidimensional Gaussian.  
+	* The distance of two Gaussians (synthetic and ground-truth images) is measured by FID.  
+	* FID is consistent with increasing disturbance and human judgement (perceptual quality).  
+	* FID is more consistent with the noise level than the **_Inception Score (discussed in Notes)_.**   
     
 ## Notes
 This paper mentioned several quality measure metrics, which are summarized below.  
