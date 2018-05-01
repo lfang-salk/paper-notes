@@ -21,8 +21,8 @@ TTUR improves learning for DCGANs and Improved Wasserstein GANs (WGAN-GP), outpe
     * They proved the convergence can be extended to Adam optimization which follows the dynamics of a heavy ball with friction and thus preferes flat minima in the objective landscape.  
     * TTUR has an individual learning rate for both the discriminator and the generator.  
 
-2. Evaluation metric: FID
-	* They claimed FID captures the similarity of generated images to real ones better than Inception Score.  
+2. Evaluation metric: FID    
+	* They claimed FID captures the similarity of generated images to real ones better than Inception Score.  
 	* They assume the **_coding units (what is it?)_** to follow a multidimensional Gaussian.  
 	* The distance of two Gaussians (synthetic and ground-truth images) is measured by FID.  
 	* FID is consistent with increasing disturbance and human judgement (perceptual quality).  
@@ -34,8 +34,8 @@ This paper mentioned several quality measure metrics, which are summarized below
 __Likelihood - the best known measure__  
 * It can be estimated by annealed importance sampling. 
 * Drawbacks:   
-    * heavily depends on the noise assumptions for the real data    
-    * can be dominated by single samples  
+    * heavily depends on the noise assumptions for the real data.    
+    * can be dominated by single samples.  
     
 __Density estimates__  
 * It has drawbacks too (see reference if interested).
