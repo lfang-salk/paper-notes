@@ -33,9 +33,9 @@ This paper mentioned several quality measure metrics, which are summarized below
 
 __Likelihood - the best known measure__  
 * It can be estimated by annealed importance sampling. 
-* Drawbacks:   
-    * heavily depends on the noise assumptions for the real data.        
-    * can be dominated by single samples.  
+* Drawbacks:  
+	* heavily depends on the noise assumptions for the real data.  
+	* can be dominated by single samples.  
     
 __Density estimates__  
 * It has drawbacks too (see reference if interested).
