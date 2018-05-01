@@ -2,7 +2,7 @@
 Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, Sepp Hochreiter  
 LIT AI Lab & Institute of Bioinformatics, Johannes Kepler University Linz
 
-**Origin:** NIPS 2017  
+**Origin:** NIPS 2017  
 **Date:** June 2017  
 **Labels:** Generative Adversarial Networks (GANs), two time-scale update rule (TTUR), Frechet Inception Distance (FID)
 
