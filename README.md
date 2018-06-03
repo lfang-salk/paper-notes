@@ -1,2 +1,2 @@
 # paper-notes
-Juice I squeezed daily.
+Juice squeezed occasionally.
